@@ -11,6 +11,7 @@ public class BinaryTreePostOrderTraversal {
         if (root == null) return res;
         Stack<TreeNode> stack = new Stack<TreeNode>();
         stack.push(root);
+        //按照根，左，右的顺序入栈
         while (!stack.isEmpty()) {
             TreeNode pRoot = stack.pop();
             res.add(pRoot.val);
