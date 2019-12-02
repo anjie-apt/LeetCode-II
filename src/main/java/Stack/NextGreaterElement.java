@@ -8,7 +8,7 @@ import java.util.Stack;
  * 给定两个没有重复元素的数组nums1 和nums2，其中nums1是nums2的子集。找到nums1中每个元素在nums2中的下一个比其大的值。
  * nums1中数字x的下一个更大元素是指x在nums2中对应位置的右边的第一个比x大的元素。如果不存在，对应位置输出-1。
  */
-public class NextGreaterElement {
+public class  NextGreaterElement {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<Integer>();
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();

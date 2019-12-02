@@ -3,6 +3,9 @@ package BackTrack;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 给定一个只包含数字的字符串，复原它并返回所有可能的 IP 地址格式
+ */
 public class RestoreIPAddresses {
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<String>();
