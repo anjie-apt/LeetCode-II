@@ -5,6 +5,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * 给定一个二叉树，返回它的 后序 遍历。
+ */
 public class BinaryTreePostOrderTraversal {
     public List<Integer> postTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<Integer>();

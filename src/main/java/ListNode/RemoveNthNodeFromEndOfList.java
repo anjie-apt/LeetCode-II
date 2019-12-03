@@ -1,8 +1,10 @@
 package ListNode;
 
 
+/**
+ * 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
+ */
 public class RemoveNthNodeFromEndOfList {
-
     /**
      * 删除链表的倒数第N个节点，使用快慢指针，快指针先走n步，慢指针再走，
      * 当快指针走到链表尾部的时候，慢指针指向的就是倒数第n个节点，删除该节点，令slow.next = slow.next.next
